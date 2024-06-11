@@ -28,6 +28,7 @@ public class Standalonetest {
 		WebDriver driver = new ChromeDriver();
 		
 		//driver configs
+		//New Comments
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
